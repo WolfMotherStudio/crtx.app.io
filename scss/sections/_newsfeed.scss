@@ -1,0 +1,33 @@
+@use '../custom' as *;
+  
+  .news{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: lighter;
+    background: linear-gradient(to right,rgba(#131533,0.95),rgba(#5c008A,0.95));
+  }
+
+  #rtb{
+    h2{
+      font-size: 16px;
+      color:white;
+      margin-top: 2rem;
+
+    }
+    .mt-2{
+      font-size:12px;
+      margin-bottom: 2rem;
+      margin-top:2rem;
+    }
+    .post-date{
+      right:18px;
+      left:auto;
+    }
+    .read-more{
+      text-align:center;
+      margin-top:3.8rem;
+      font-size:12px;
+    }
+    .btn{
+      font-size: 14px;
+    }
+  }
