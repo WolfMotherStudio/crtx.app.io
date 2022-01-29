@@ -1,4 +1,4 @@
-@use "custom" as *;
+@use "custom"as *;
 //IMPORT THE COMPOMONENTS
 @use 'components/animatations';
 @use 'components/buttons';
@@ -14,3 +14,6 @@
 @use 'sections/team';
 @use 'sections/footer.scss';
 @use 'sections/info.scss';
+@use 'sections/careers';
+@use 'sections/demo';
+@use 'sections/partners';

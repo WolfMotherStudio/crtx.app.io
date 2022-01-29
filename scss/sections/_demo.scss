@@ -1,9 +1,10 @@
-@use '../custom' as *;
-@use '../components/mixins' as *;
+@use '../custom'as *;
+@use '../components/mixins'as *;
 
-.demo{
+.demo {
     font-family: 'Montserrat Alternates', sans-serif;
 }
-.demo-btn{
+
+.demo-btn {
     font-weight: 700;
 }

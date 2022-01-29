@@ -1,13 +1,14 @@
-@use '../custom' as *;
-@use '../components/mixins' as *;
+@use '../custom'as *;
+@use '../components/mixins'as *;
 
-.footer{
+.footer {
     padding-top: 1rem;
     background: $footer;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-weight:light;
+    font-weight: light;
 }
-.footer-list{
+
+.footer-list {
     text-decoration: none;
 
 }

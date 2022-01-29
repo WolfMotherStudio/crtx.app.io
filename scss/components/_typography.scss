@@ -1,23 +1,25 @@
-@use '../custom' as *;
-@use '../components/mixins' as *;
+@use '../custom'as *;
+@use '../components/mixins'as *;
 
-.intro{
-    font-family: 'Montserrat Alternates', sans-serif;
-    @media (min-width: 480px) {
-        .title {
-          font-size: small;
-        }
-      }
+.intro {
+  font-family: 'Montserrat Alternates', sans-serif;
 
+  @media (min-width: 480px) {
+    .title {
+      font-size: small;
+    }
+  }
 }
 
-.partners{
-    font-family: 'Montserrat Alternates', sans-serif;
+.partners {
+  font-family: 'Montserrat Alternates', sans-serif;
+  height: 500px;
 }
 
-.news{
-    font-family: 'Montserrat Alternates', sans-serif;
+.news {
+  font-family: 'Montserrat Alternates', sans-serif;
 }
-.demo{
+
+.demo {
   font-family: 'Montserrat Alternates', sans-serif;
 }
