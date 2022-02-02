@@ -1,37 +1,38 @@
-@use '../custom'as *;
-
-.news {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: lighter;
-  background: linear-gradient(to right, rgba(#131533, 0.95), rgba(#5c008A, 0.95));
-}
-
-#rtb {
-  h2 {
-    font-size: 16px;
-    color: white;
-    margin-top: 2rem;
-
+@use '../custom' as *;
+  
+  .news{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: lighter;
+    background: linear-gradient(to right,rgba(#131533,0.95),rgba(#5c008A,0.95));
   }
 
-  .mt-2 {
-    font-size: 12px;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
+  #rtb{
+    h2{
+      font-size: 16px;
+      color:white;
+      margin-top: 2rem;
 
-  .post-date {
-    right: 18px;
-    left: auto;
+    }
+    .mt-2{
+      font-size:12px;
+      
+    }
+    .post-date{
+      display:none;
+    }
+    .read-more{
+      text-align:center;
+      margin-top:2.5rem;
+      font-size:12px;
+    }
+    .btn{
+      font-size: 14px;
+    }
   }
+  @media (min-width:768px) {
+    .signup-input{
+        width:40%;
 
-  .read-more {
-    text-align: center;
-    margin-top: 3.8rem;
-    font-size: 12px;
-  }
-
-  .btn {
-    font-size: 14px;
-  }
+    }
+    
 }

@@ -11129,6 +11129,7 @@ textarea.form-control-lg {
 }
 .btn-rounded:hover {
   background: linear-gradient(to right, rgba(19, 21, 51, 0.95), rgba(92, 0, 138, 0.95));
+  color: #fff;
 }
 
 .btn-nav {
@@ -11140,6 +11141,7 @@ textarea.form-control-lg {
 
 .btn-nav:hover {
   box-shadow: 1px 1px 25px 10px rgba(248, 212, 146, 0.4);
+  color: #fff;
 }
 
 .btn-nav:before {
@@ -11151,6 +11153,7 @@ textarea.form-control-lg {
   height: 100%;
   background: linear-gradient(120deg, transparent, rgba(248, 201, 146, 0.4), transparent);
   transition: all 650ms;
+  color: white;
 }
 
 .btn-nav:hover:before {
@@ -11223,6 +11226,7 @@ textarea.form-control-lg {
 
 .partners {
   font-family: "Montserrat Alternates", sans-serif;
+  height: 500px;
 }
 
 .news {
@@ -11233,8 +11237,43 @@ textarea.form-control-lg {
   font-family: "Montserrat Alternates", sans-serif;
 }
 
+.careers-head {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
 .intro {
   background: linear-gradient(to right, rgba(19, 21, 51, 0.95), rgba(92, 0, 138, 0.95));
+}
+
+/* Slider */
+.partners-section {
+  height: 800px !important;
+}
+
+.section-padding {
+  padding: 60px 0;
+}
+
+.brand-carousel {
+  background: white;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.owl-dot.active {
+  background-color: white !important;
 }
 
 .menu {
@@ -11305,22 +11344,24 @@ textarea.form-control-lg {
 }
 #rtb .mt-2 {
   font-size: 12px;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
 }
 #rtb .post-date {
-  right: 18px;
-  left: auto;
+  display: none;
 }
 #rtb .read-more {
   text-align: center;
-  margin-top: 3.8rem;
+  margin-top: 2.5rem;
   font-size: 12px;
 }
 #rtb .btn {
   font-size: 14px;
 }
 
+@media (min-width: 768px) {
+  .signup-input {
+    width: 40%;
+  }
+}
 .signup {
   font-family: "Montserrat Alternates", sans-serif;
   background: linear-gradient(90deg, #131533 0%, #3b0158 50%, #fc7937 100%);
@@ -11329,12 +11370,17 @@ textarea.form-control-lg {
 
 @media (min-width: 768px) {
   .signup-input {
-    width: 40%;
+    width: 50%;
   }
 }
 .team {
   background: linear-gradient(to right, rgba(19, 21, 51, 0.95), rgba(92, 0, 138, 0.95));
   font-family: "Montserrat Alternates", sans-serif;
+  color: linear-gradient(90deg, #131533 0%, #3b0158 50%, #fc7937 100%);
+}
+
+.team-color {
+  color: linear-gradient(90deg, #131533 0%, #3b0158 50%, #fc7937 100%);
 }
 
 .footer {
@@ -11359,6 +11405,24 @@ textarea.form-control-lg {
   width: 6rem;
   height: 6rem;
   border: 0.55rem solid #fff;
+}
+
+.careers-head {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.demo {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.demo-btn {
+  font-weight: 700;
+}
+
+.partners {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: lighter;
 }
 
 /*# sourceMappingURL=style.css.map */
