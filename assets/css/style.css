@@ -11226,7 +11226,6 @@ textarea.form-control-lg {
 
 .partners {
   font-family: "Montserrat Alternates", sans-serif;
-  height: 500px;
 }
 
 .news {
@@ -11243,6 +11242,10 @@ textarea.form-control-lg {
 
 .intro {
   background: linear-gradient(to right, rgba(19, 21, 51, 0.95), rgba(92, 0, 138, 0.95));
+}
+
+.web3 {
+  background: linear-gradient(90deg, #131533 0%, rgba(59, 1, 88, 0.393995098) 50%, #fc7937 100%);
 }
 
 /* Slider */
@@ -11386,12 +11389,22 @@ textarea.form-control-lg {
   font-weight: light;
 }
 
-.footer-list {
-  text-decoration: none;
+.footer-center {
+  padding-left: 9.5rem;
+  padding-top: 2rem;
+}
+
+.footer-right {
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+
+.footer-left {
+  padding-left: 6rem;
+  padding-top: 2rem;
 }
 
 .info {
-  background: white;
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: lighter;
 }
@@ -11403,9 +11416,18 @@ textarea.form-control-lg {
   border: 0.55rem solid #fff;
 }
 
+.careers {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
 .careers-head {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
+}
+
+.careers-text {
+  font-size: 18px;
+  font-weight: lighter;
 }
 
 .demo {
