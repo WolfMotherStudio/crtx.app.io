@@ -19,3 +19,28 @@
     padding-left:6rem;
     padding-top:2rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .footer-center{
+      padding-left:7rem;
+      
+    
+    }
+    .footer-left{
+        padding-left:.03rem;
+
+    }
+    .footer-right{
+        padding-left:.03rem; 
+    }
+    .footer-alt{
+        padding-top:10rem;
+  }
+}
+
+  @media only screen and (max-width: 450px){
+      .footer-right{
+          padding-left:7rem;
+  }
+ 
+  }
