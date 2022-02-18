@@ -11336,6 +11336,19 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(19, 21, 51, 0.95), rgba(92, 0, 138, 0.95));
 }
 
+@media only screen and (max-width: 768px) {
+  .box-1 {
+    padding-bottom: 1.5rem;
+  }
+
+  .box-2 {
+    padding-bottom: 1.5rem;
+  }
+
+  .box-3 {
+    padding-bottom: 3rem;
+  }
+}
 #rtb h2 {
   font-size: 16px;
   color: white;
@@ -11417,8 +11430,12 @@ textarea.form-control-lg {
     padding-left: 0.03rem;
   }
 
-  .footer-alt {
-    padding-top: 10rem;
+  .footer-links {
+    padding-top: 3rem !important;
+  }
+
+  .footer-link {
+    padding-top: 1rem;
   }
 }
 @media only screen and (max-width: 450px) {
